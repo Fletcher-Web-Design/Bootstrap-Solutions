@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+<div class="jumbotron">
+<h1>Glyphicon Buttons</h1>
+<p>Glyphicons courtesy of <a href="https://glyphicons.com/">Glyphicons.com</a></p>
+</div>
+
+<div class="row">
+<div class="col-sm-2">
+<div class="btn-group-vertical">
+    <a href="#" class="btn btn-default"><span class="glyphicon glyphicon-print"></span> Print</a>
+    <a href="#" class="btn btn-default"><span class="glyphicon glyphicon-trash"></span> Delete</a>
+    <a href="#" class="btn btn-default"><span class="glyphicon glyphicon-download"></span> Download</a>
+</div>
+</div>
+<div class="col-lg-10">
+<h3>Document</h3>
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed nulla et ipsum mollis dictum commodo aliquet diam. Aliquam sed nisi et turpis accumsan dapibus eu et justo. Donec eu facilisis est, in laoreet ante. Vestibulum blandit, quam non commodo fermentum, diam arcu gravida justo, vitae vulputate odio risus in tellus. Morbi id finibus felis. In quis tincidunt arcu. Ut vulputate tellus at faucibus efficitur. Praesent tempus nisi metus. Sed posuere, ligula et pretium ullamcorper, nunc libero vestibulum ante, eget eleifend velit nibh et augue. Cras vulputate purus aliquet arcu laoreet, quis pretium neque efficitur. Nam viverra pretium risus id suscipit.
+    Phasellus porttitor blandit eros, at facilisis urna luctus quis. Proin imperdiet orci non euismod venenatis. Sed enim nisl, scelerisque porta lacinia luctus, varius sit amet justo. Aenean sit amet placerat erat, non varius est. Suspendisse pretium lectus eu augue commodo, id finibus mi consectetur. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean vel ultrices sem. Nullam dapibus lectus in mattis commodo. Quisque rutrum pretium luctus. Quisque id tempor nulla. Nullam sit amet eleifend augue. Vivamus libero ligula, pharetra sit amet lacus quis, tempor venenatis purus. Nulla augue nunc, feugiat ut risus et, luctus fringilla odio. Pellentesque id congue risus, vel maximus augue.
+</p>
+</div>
+</div>
+</div>
+</body>
+</html>
