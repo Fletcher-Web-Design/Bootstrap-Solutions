@@ -1,0 +1,240 @@
+/* index.html */
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Portfolio</title>
+</head>
+<body>
+<!-- Content -->
+<div class="container-fluid cover">
+<div class="row">
+<div class="col-sm-6 front-logo">
+   <h1>Kit's Portfolio</h1>
+</div>
+<div class="col-sm-2 front-nav-1">
+   <a href="gallery.html"><h1>Galleries</h1></a>
+</div>
+<div class="col-sm-2 front-nav-2">
+   <a href="pricing.html"><h1>Pricing</h1></a>
+</div>
+<div class="col-sm-2 front-nav-3">
+   <a href="contact.html"><h1>Contact</h1></a>
+</div>
+</div>
+</div>
+
+</body>
+</html>
+
+/* contact.html */
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<title>Contact Me</title>
+</head>
+<body>
+<!-- Navigation links -->
+<div class="container-fluid">
+<a href="index.html"><h2>Home</h2></a>
+<a href="gallery.html"><h2>Galleries</h2></a>
+</div>
+
+<div class="container">
+<div class="page-header">
+<h1>Contact Kit <small>Just say hi!</small></h1>
+</div>
+<div class="text-center">
+<p>
+    <button class="btn btn-sm btn-info disabled btn-block">
+        <span class="glyphicon glyphicon-envelope"></span>
+        Email Me: 
+    </button>
+    kit@superawesomephotos.net</p>
+<p> 
+    <button class="btn btn-sm btn-info disabled btn-block">
+        <span class="glyphicon glyphicon-home"></span>
+        Mail Me: 
+    </button>
+    555 Photo Dr <br>
+             Here, MD 19191
+</p>
+<p>
+    <button class="btn btn-sm btn-info disabled btn-block">
+        <span class="glyphicon glyphicon-thumbs-up"></span>
+        Find Me:
+    </button>
+
+    @superkitphotos
+</p>
+<p>
+    <button class="btn btn-sm btn-info disabled btn-block">
+        <span class="glyphicon glyphicon-earphone"></span>
+        Call Me:
+    </button>
+     (888) 123 - 5555
+</p>
+</div>
+</div>
+
+</body>
+</html>
+
+/* castle-gallery.html */
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Castles</title>
+</head>
+<body>
+<!-- Navigation links -->
+<div class="container-fluid">
+<a href="index.html"><h2>Home</h2></a>
+<a href="gallery.html"><h2>Galleries</h2></a>
+<a href="contact.html" class="btn btn-primary">
+<span class="glyphicon glyphicon-exclamation-sign"></span>
+Contact Me!
+</a>
+</div>
+<!-- Images -->
+<div class="container">
+<div class="row">
+<div class="col-sm-3">
+    <img class="img-rounded" src="http://via.placeholder.com/200x200">
+</div>
+<div class="col-sm-3">
+    <img class="img-rounded" src="http://via.placeholder.com/200x200">
+</div>
+<div class="col-sm-3">
+    <img class="img-rounded" src="http://via.placeholder.com/200x200">
+</div>
+<div class="col-sm-3">
+    <img class="img-rounded" src="http://via.placeholder.com/200x200">
+</div>
+</div>
+<br>
+<div class="row">
+<div class="col-sm-3">
+    <img class="img-rounded" src="http://via.placeholder.com/200x200">
+</div>
+<div class="col-sm-3">
+    <img class="img-rounded" src="http://via.placeholder.com/200x200">
+</div>
+<div class="col-sm-3">
+    <img class="img-rounded" src="http://via.placeholder.com/200x200">
+</div>
+<div class="col-sm-3">
+    <img class="img-rounded" src="http://via.placeholder.com/200x200">
+</div>
+</div>
+<div class="row footer">
+<div class="col-xs-12">
+    <a href="http://glyphicons.com/">Glyphicons</a>    
+</div>
+</div>
+</div>
+</body>
+</html>
+
+/* gallery.html */
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Gallery</title>
+</head>
+<body>
+<div class="container-fluid">
+<div class="jumbotron">
+    <h1>The Galleries</h1>
+</div>
+</div>
+<div class="container">
+<div class="jumbotron text-center">
+    <a href="#"><h1>Party Photos</h1></a>
+</div>
+<div class="jumbotron text-center">
+    <a href="#"><h1>Landscapes</h1></a>
+</div>
+<div class="jumbotron text-center">
+    <a href="castle-gallery.html"><h1>Castles</h1></a>
+</div>
+<div class="jumbotron text-center">
+    <a href="#"><h1>Cats</h1></a>
+</div>
+
+</div>
+</body>
+</html>
+
+/* Basic styles */
+body{background-color: #D5D5D5;}
+h1 {color: #9099A2; }
+h2, h3, h4, h5, h6{color: #6D7993; /* Accent */}
+a{color:inherit;}
+a:hover{color:#6D7993;}
+.jumbotron{background-color: #96858F;}
+/* Homepage styles*/
+.cover{
+    background-image:url("http://www.publicdomainpictures.net/pictures/140000/t2/ark-texture-impasto-color-swirl-.jpg");
+    background-size:cover;
+    height:300px;
+    margin-top:25%;}
+.cover .col-sm-2{
+    height:200px;
+    margin:50px 0px;}
+.front-logo h1{
+    color:white;
+    margin:50px;}
+.front-nav-1{background-color:#64271b;}
+.front-nav-2{background-color:#354243;}
+.front-nav-3{background-color:#80598d;}
