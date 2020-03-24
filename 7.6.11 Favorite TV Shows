@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<style>
+img{
+    height:200px;
+    width:200px;
+}
+</style>
+
+</head>
+<body>
+<div class="container">
+<div class="page-header">
+    <h1>My Favorite TV Shows</h1>
+</div>
+<div class="row">
+<div class="col-sm-6">
+<a class="thumbnail"
+    href = "https://en.wikipedia.org/wiki/Psych">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Psych.svg"
+        alt="Psych">
+</a>
+</div>
+<div class="col-sm-6">
+<a class="thumbnail"
+    href = "https://en.wikipedia.org/wiki/File:Pinky_and_the_Brain_vol1.jpg">
+    <img src="https://upload.wikimedia.org/wikipedia/en/4/47/Pinky_and_the_Brain_vol1.jpg"
+        alt="Pinky and the Brain">
+</a>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-6">
+<a class="thumbnail"
+    href = "https://en.wikipedia.org/wiki/Tom_and_Jerry">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vitoria_-_Graffiti_%26_Murals_1127_12.JPG"
+        alt="Tom and Jerry">
+</a>
+</div>
+<div class="col-sm-6">
+<a class="thumbnail"
+    href = "https://en.wikipedia.org/wiki/Popeye">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Popyeye-logo.svg"
+        alt="Popeye">
+</a>
+</div>
+</div>
+</div>
+<footer class="small">
+Images used under Fair Use laws and remain property of their
+respective copyright owners.
+</footer>
+</body>
+</html>
