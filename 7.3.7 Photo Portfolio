@@ -1,0 +1,85 @@
+/* Basic styles */
+body{background-color: #D5D5D5;}
+h1 {color: #9099A2;}
+h2, h3, h4, h5, h6{color: #6D7993; /* Accent */}
+a{color:inherit;}
+a:hover{color:#6D7993;}
+.jumbotron{background-color: #96858F;}
+
+/* Homepage styles*/
+.cover{height:300px;
+    margin-top:25%;}
+
+/* Gallery.html */
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Galleries</title>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="jumbotron">
+        <h1>The Galleries</h1>
+    </div>
+</div>
+<div class="container">
+    <div class="jumbotron text-center">
+        <a href="#"><h1>Party Photos</h1></a>
+    </div>
+    <div class="jumbotron text-center">
+        <a href="#"><h1>Landscapes</h1></a>
+    </div>
+    <div class="jumbotron text-center">
+        <a href="castle-gallery.html"><h1>Castles</h1></a>
+    </div>
+    <div class="jumbotron text-center">
+        <a href="#"><h1>Cats</h1></a>
+    </div>
+</div>
+</body>
+</html>
+
+/* Index.html */
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Portfolio</title>
+</head>
+<body>
+<!-- Content -->
+<div class="container-fluid cover">
+   <h1>Kit's Portfolio</h1>
+   <hr>
+   <a href="gallery.html"><h1>Galleries</h1></a>
+   <a href="pricing.html"><h1>Pricing</h1></a>
+   <a href="contact.html"><h1>Contact</h1></a>
+</div>
+
+</body>
+</html>
