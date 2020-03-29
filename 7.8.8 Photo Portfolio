@@ -1,0 +1,436 @@
+/* Basic styles */
+body{background-color: #D5D5D5;}
+h1 {color: #9099A2;}
+h2, h3, h4, h5, h6{color: #6D7993; /* Accent */}
+th{background-color:#96858F;}
+a{color:inherit;}
+a:hover{color:#6D7993;;}
+.jumbotron{background-color: #96858F;}
+/* Homepage styles*/
+.cover{
+    background-image:url("http://www.publicdomainpictures.net/pictures/140000/t2/ark-texture-impasto-color-swirl-.jpg");
+    background-size:cover;
+    height:300px;
+    margin-top:25%;
+}
+.cover .col-sm-2{
+    height:200px;
+    margin:50px 0px;
+}
+.front-logo h1{
+    color:white;
+    margin:50px;
+}
+.front-nav-1{background-color:#64271b;}
+.front-nav-2{background-color:#354243;}
+.front-nav-3{background-color:#80598d;}
+
+/* index.html */
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Portfolio</title>
+</head>
+<body>
+<!-- Content -->
+<div class="container-fluid cover">
+ <div class="row">
+     <div class="col-sm-6 front-logo">
+         <h1>Kit's Portfolio</h1>
+     </div>
+     <div class="col-sm-2 front-nav-1">
+         <a href="gallery.html"><h1>Galleries</h1></a>
+     </div>
+     <div class="col-sm-2 front-nav-2">
+         <a href="pricing.html"><h1>Pricing</h1></a>
+     </div>
+     <div class="col-sm-2 front-nav-3">
+         <a href="contact.html"><h1>Contact</h1></a>
+     </div>
+ </div>
+</div>
+
+</body>
+</html>
+
+/* contact.html */
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<title>Contact Me</title>
+</head>
+<body>
+<!-- Navigation links -->
+<div class="container-fluid">
+<div class="navbar navbar-inverse">
+<div class="navbar-header">
+    <a class="navbar-brand" href="index.html">
+    <span class="glyphicon glyphicon-home"></span> 
+    Kit's Portfolio</a>
+</div>
+<ul class="nav navbar-nav">
+    <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+            Galleries <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+            <li><a href="gallery.html">All Galleries</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Party Photos</a></li>
+            <li><a href="#">Landscapes</a></li>
+            <li><a href="castle-gallery.html">Castles</a></li>
+            <li><a href="#">Cats</a></li>
+        </ul>
+    </li>
+    <li><a href="pricing.html">Pricing</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+    <li class="active"><a href="contact.html">
+        <span class="glyphicon glyphicon-exclamation-sign"></span>
+        Contact Me!
+        </a>
+    </li>
+</ul>
+</div>
+</div>
+
+<div class="container">
+<div class="page-header">
+<h1>Contact Kit <small>Just say hi!</small></h1>
+</div>
+<div class="text-center">
+<p>
+    <button class="btn btn-sm btn-info disabled btn-block">
+        <span class="glyphicon glyphicon-envelope"></span>
+        Email Me: 
+    </button>
+    kit@superawesomephotos.net</p>
+<p> 
+    <button class="btn btn-sm btn-info disabled btn-block">
+        <span class="glyphicon glyphicon-home"></span>
+        Mail Me: 
+    </button>
+    555 Photo Dr <br>
+             Here, MD 19191
+</p>
+<p>
+    <button class="btn btn-sm btn-info disabled btn-block">
+        <span class="glyphicon glyphicon-thumbs-up"></span>
+        Find Me:
+    </button>
+
+    @superkitphotos
+</p>
+<p>
+    <button class="btn btn-sm btn-info disabled btn-block">
+        <span class="glyphicon glyphicon-earphone"></span>
+        Call Me:
+    </button>
+     (888) 123 - 5555
+</p>
+</div>
+</div>
+</body>
+</html>
+
+/* gallery.html */
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Gallery</title>
+</head>
+<body>
+<div class="container-fluid">
+<div class="jumbotron">
+    <h1>The Galleries</h1>
+</div>
+</div>
+<!-- Nav tabs -->
+<div class="container">
+<div class="row">
+    <div class="col-sm-2">
+        <ul class="nav nav-tabs nav-stacked">
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown active">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    Galleries <span class="caret"></span>
+                </a>
+            <ul class="dropdown-menu">
+                <li class="active"><a href="gallery.html">All Galleries</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Party Photos</a></li>
+                <li><a href="#">Landscapes</a></li>
+                <li><a href="castle-gallery.html">Castles</a></li>
+                <li><a href="#">Cats</a></li>
+            </ul>
+            </li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <div class="col-sm-10">
+        <div class="jumbotron text-center">
+            <a href="#"><h1>Party Photos</h1></a>
+        </div>
+        <div class="jumbotron text-center">
+            <a href="#"><h1>Landscapes</h1></a>
+        </div>
+        <div class="jumbotron text-center">
+            <a href="castle-gallery.html"><h1>Castles</h1></a>
+        </div>
+        <div class="jumbotron text-center">
+            <a href="#"><h1>Cats</h1></a>
+        </div>
+    </div>
+</div>
+
+</div>
+</body>
+</html>
+
+/* castle-gallery.html */
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Castles</title>
+</head>
+<body>
+<!-- Navigation links -->
+<div class="container-fluid">
+<div class="navbar navbar-inverse">
+<div class="navbar-header">
+    <a class="navbar-brand" href="index.html">
+    <span class="glyphicon glyphicon-home"></span> 
+    Kit's Portfolio</a>
+</div>
+<ul class="nav navbar-nav">
+    <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+            Galleries <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+            <li><a href="gallery.html">All Galleries</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Party Photos</a></li>
+            <li><a href="#">Landscapes</a></li>
+            <li class="active"><a href="castle-gallery.html">Castles</a></li>
+            <li><a href="#">Cats</a></li>
+        </ul>
+    </li>
+    <li><a href="pricing.html">Pricing</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+    <li><a href="contact.html">
+        <span class="glyphicon glyphicon-exclamation-sign"></span>
+        Contact Me!
+        </a>
+    </li>
+</ul>
+</div>
+</div>
+<!-- Images -->
+<div class="container-fluid">
+<div class="row">
+<div class="col-sm-3">
+    <a class="thumbnail" href="#">
+        <img class="img-rounded" src="http://via.placeholder.com/200x200">
+    </a>
+</div>
+<div class="col-sm-3">
+    <a class="thumbnail" href="#">
+        <img class="img-rounded" src="http://via.placeholder.com/200x200">
+    </a>
+</div>
+<div class="col-sm-3">
+    <a class="thumbnail" href="#">
+        <img class="img-rounded" src="http://via.placeholder.com/200x200">
+    </a>
+</div>
+<div class="col-sm-3">
+    <a class="thumbnail" href="#">
+        <img class="img-rounded" src="http://via.placeholder.com/200x200">
+    </a>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-3">
+    <a class="thumbnail" href="#">
+        <img class="img-rounded" src="http://via.placeholder.com/200x200">
+    </a>
+</div>
+<div class="col-sm-3">
+    <a class="thumbnail" href="#">
+        <img class="img-rounded" src="http://via.placeholder.com/200x200">
+    </a>
+</div>
+<div class="col-sm-3">
+    <a class="thumbnail" href="#">
+        <img class="img-rounded" src="http://via.placeholder.com/200x200">
+    </a>
+</div>
+<div class="col-sm-3">
+    <a class="thumbnail" href="#">
+        <img class="img-rounded" src="http://via.placeholder.com/200x200">
+    </a>
+</div>
+</div>
+<div class="row footer">
+<div class="col-xs-12">
+    <a href="http://glyphicons.com/">Glyphicons</a>    
+</div>
+</div>
+</div>
+</body>
+</html>
+
+/* pricing.html */
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Portfolio</title>
+</head>
+<body>
+<!-- Navigation links -->
+<div class="container-fluid">
+  <div class="navbar navbar-inverse">
+      <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">
+          <span class="glyphicon glyphicon-home"></span> 
+          Kit's Portfolio</a>
+      </div>
+      <ul class="nav navbar-nav">
+          <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                  Galleries <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                  <li><a href="gallery.html">All Galleries</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Party Photos</a></li>
+                  <li><a href="#">Landscapes</a></li>
+                  <li><a href="castle-gallery.html">Castles</a></li>
+                  <li><a href="#">Cats</a></li>
+              </ul>
+          </li>
+          <li class="active"><a href="pricing.html">Pricing</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+          <li><a href="contact.html">
+              <span class="glyphicon glyphicon-exclamation-sign"></span>
+              Contact Me!
+              </a>
+          </li>
+      </ul>
+  </div>
+</div>
+
+<!-- Pricing Details -->
+<div class="container">
+  <div class="row">
+      <div class="col-md-12">
+          <div class="page-header">
+              <h1>Pricing Details</h1>
+          </div>
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-xs-12">
+          <table class="table table-hover table-bordered">
+              <thead>
+                  <tr>
+                      <th>Size</th>
+                      <th>Cost Unframed</th>
+                      <th>Cost Framed</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>8x10</td>
+                      <td>$15</td>
+                      <td>$23</td>
+                  </tr>
+                  <tr>
+                      <td>11x14</td>
+                      <td>$19</td>
+                      <td>$28</td>
+                  </tr>
+                  <tr>
+                      <td>16x20</td>
+                      <td>$26</td>
+                      <td>$35</td>
+                  </tr>
+              </tbody>
+          </table>
+      </div>
+  </div>
+</div>
+</body>
+</html>
+
+
+
+
